@@ -1,0 +1,167 @@
+{
+  "stock": {
+    "AIR": {
+      "physical": 40,
+      "reserved": 4
+    },
+    "AIR_PLUS": {
+      "physical": 10,
+      "reserved": 3
+    }
+  },
+  "components": {
+    "pcb": 150,
+    "temp_sensor": 150,
+    "humidity_sensor": 150,
+    "co2_sensor": 40,
+    "display": 150,
+    "case": 150
+  },
+  "orders": [
+    {
+      "id": "ORD-001",
+      "client": "Theta LLC",
+      "sku": "AIR",
+      "qty": 5,
+      "createdAt": "2026-10-13",
+      "shipBy": "2026-10-18",
+      "status": "SHIPPED",
+      "priority": "HIGH"
+    },
+    {
+      "id": "ORD-002",
+      "client": "Zeta Ltd",
+      "sku": "AIR",
+      "qty": 8,
+      "createdAt": "2026-10-14",
+      "shipBy": "2026-10-20",
+      "status": "NEW",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "ORD-003",
+      "client": "Mu Oy",
+      "sku": "AIR",
+      "qty": 10,
+      "createdAt": "2026-10-15",
+      "shipBy": "2026-10-22",
+      "status": "NEW",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "ORD-004",
+      "client": "Iota Inc",
+      "sku": "AIR",
+      "qty": 6,
+      "createdAt": "2026-10-15",
+      "shipBy": "2026-10-25",
+      "status": "NEW",
+      "priority": "LOW"
+    },
+    {
+      "id": "ORD-005",
+      "client": "Gamma Inc",
+      "sku": "AIR",
+      "qty": 4,
+      "createdAt": "2026-10-12",
+      "shipBy": "2026-10-17",
+      "status": "RESERVED",
+      "priority": "HIGH"
+    },
+    {
+      "id": "ORD-006",
+      "client": "Eta Corp",
+      "sku": "AIR",
+      "qty": 3,
+      "createdAt": "2026-10-10",
+      "shipBy": "2026-10-14",
+      "status": "SHIPPED",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "ORD-007",
+      "client": "Delta GmbH",
+      "sku": "AIR_PLUS",
+      "qty": 6,
+      "createdAt": "2026-10-14",
+      "shipBy": "2026-10-19",
+      "status": "NEW",
+      "priority": "HIGH"
+    },
+    {
+      "id": "ORD-008",
+      "client": "Iota Inc",
+      "sku": "AIR_PLUS",
+      "qty": 5,
+      "createdAt": "2026-10-15",
+      "shipBy": "2026-10-21",
+      "status": "NEW",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "ORD-009",
+      "client": "Mu Oy",
+      "sku": "AIR_PLUS",
+      "qty": 5,
+      "createdAt": "2026-10-15",
+      "shipBy": "2026-10-23",
+      "status": "NEW",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "ORD-010",
+      "client": "Eta Corp",
+      "sku": "AIR_PLUS",
+      "qty": 3,
+      "createdAt": "2026-10-13",
+      "shipBy": "2026-10-18",
+      "status": "RESERVED",
+      "priority": "HIGH"
+    },
+    {
+      "id": "ORD-011",
+      "client": "Delta GmbH",
+      "sku": "AIR_PLUS",
+      "qty": 2,
+      "createdAt": "2026-10-11",
+      "shipBy": "2026-10-13",
+      "status": "SHIPPED",
+      "priority": "NORMAL"
+    },
+    {
+      "id": "ORD-012",
+      "client": "Тест",
+      "sku": "AIR",
+      "qty": 2,
+      "createdAt": "2026-10-15",
+      "shipBy": "2026-10-25",
+      "status": "NEW",
+      "priority": "NORMAL"
+    }
+  ],
+  "shipments": [
+    {
+      "id": "SHP-001",
+      "sku": "AIR",
+      "qty": 15,
+      "expectedDate": "2026-10-19",
+      "status": "RECEIVED"
+    },
+    {
+      "id": "SHP-002",
+      "sku": "AIR",
+      "qty": 10,
+      "expectedDate": "2026-10-24",
+      "status": "PLANNED"
+    },
+    {
+      "id": "SHP-003",
+      "sku": "AIR_PLUS",
+      "qty": 8,
+      "expectedDate": "2026-10-20",
+      "status": "PLANNED"
+    }
+  ],
+  "orderSeq": 13,
+  "shipmentSeq": 4
+}
